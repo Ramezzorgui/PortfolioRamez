@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zorgui Ramez</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Ramez.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img style="border-radius: 10%;" src="./assets/images/Ramez.jpg" alt="Zorgui Ramez" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Zorgui Ramez">Zorgui Ramez</h1>
+
+          <p class="title">IT Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ramez.zorgui@esprit.tn" class="contact-link">ramez.zorgui@esprit.tn</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+21629722903" class="contact-link">+216 29 722 903 </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-03-05">September 29, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ariana Soghra , Tunisie</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/ramez.zorguii" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ramez-zorgui-a60b31256/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/ramez_zorgui/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+<p>
+   As a final-year engineering student specializing in Web and Internet Technologies at ESPRIT, I see the web not just as a tool, but as a living ecosystem of innovation. My journey has allowed me to build strong expertise in web development, CI/CD pipelines, and modern software engineering practices, while also exploring the emerging field of Artificial Intelligence. What excites me most is bridging technology with creativity — designing solutions that are not only functional but also meaningful. With a strong drive for continuous learning and problem-solving, I aim to contribute to projects that push boundaries and shape the future of digital experiences.
+</p>
+
+
+  <div id="cv-download-container" style="position: relative; display: inline-block;">
+  <button id="download-cv-btn" style="margin-top: 20px; padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Download CV
+  </button>
+  
+  <div id="language-menu" style="position: absolute; top: 100%; left: 0; background-color: white; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: none; z-index: 1000; min-width: 200px;">
+    <a href="./assets/RamzCVAnglais.pdf" download style="display: block; padding: 10px 20px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">
+      English
+    </a>
+    <a href="./assets/RamezCVFRANCAIS.pdf" download style="display: block; padding: 10px 20px; text-decoration: none; color: #333;">
+      Français
+    </a>
+  </div>
+</div>
+
+<script>
+  document.getElementById('download-cv-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    const menu = document.getElementById('language-menu');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+  });
+
+  // Hide menu when clicking outside
+  document.addEventListener('click', function(e) {
+    const container = document.getElementById('cv-download-container');
+    if (!container.contains(e.target)) {
+      document.getElementById('language-menu').style.display = 'none';
+    }
+  });
+</script>
+</section>
+
+
+        <!--
+          - service
+        -->
+
+     <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Development</h4>
+
+        <p class="service-item-text">
+          High-quality development of websites at a professional level, creating responsive and efficient solutions.
+        </p>
+      </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/devops.png" alt="DevOps icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">DevOps</h4>
+
+        <p class="service-item-text">
+          Streamlining development pipelines with CI/CD, cloud infrastructure, and automation for scalable systems.
+        </p>
+      </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/ai.png" alt="AI icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">AI Development</h4>
+
+        <p class="service-item-text">
+          Exploring and building beginner-level AI solutions, including machine learning models and integrations.
+        </p>
+      </div>
+
+    </li>
+
+    <li class="service-item">
+
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="Web design icon" width="40">
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Design</h4>
+
+        <p class="service-item-text">
+          Crafting modern, user-friendly, and visually appealing designs for websites at a professional level.
+        </p>
+      </div>
+
+    </li>
+
+  </ul>
+
+</section>
+
+        <!--
+          - testimonials
+       
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+ -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+  <section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+
+    <h3 class="h3">Education</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Computer Engineering Program, Specialization in Web and Internet Technology - Esprit</h4>
+
+      <span>2023 — 2026</span>
+
+      <p class="timeline-text">
+        Pursuing advanced studies in computer engineering with a focus on web technologies and information systems, developing expertise in modern web development and data management.
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Bachelor’s Degree in Computer Systems Engineering – Higher Institute of Applied Sciences and Technology of Kasserine (ISSAT)</h4>
+
+      <span>2020 — 2023</span>
+
+      <p class="timeline-text">
+        Developed solid foundations in computer science through coursework in algorithms, operating systems, and fundamental web development.
+      </p>
+
+    </li>
+
+  </ol>
+
+</section>
+
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="code-outline"></ion-icon>
+    </div>
+
+    <h3 class="h3">Academic Projects</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">AI-Learning – Plateforme Éducative Intelligente</h4>
+
+      <span>September 2025 — Nouvember 2025</span>
+
+      <p class="timeline-text">
+        Ecole Supérieur Privée d'Ingénierie et de Technologies<br>
+        Technologies: Django REST Framework, MongoDB, Bootstrap 5 (Sneat Template), Python, Celery, Redis, Docker, AI/ML APIs (Transformers, Whisper, Instructor, OCR)<br>
+        - Developed an AI-assisted educational platform for sharing, revising, and evaluating learning resources in a social environment.<br>
+        - Implemented semantic search, adaptive quizzes, plagiarism and NSFW detection, and intelligent summarization of PDFs and videos.<br>
+        - Designed dashboards for students, teachers, and moderators to track engagement and performance.<br>
+        - Integrated external APIs and AI tools for personalized recommendations, transcription, and content analysis.<br>
+        - Managed deployment and DevOps pipeline using Docker, Jenkins, and CI/CD practices.<br>
+        Link: <a href="https://recruitpro-frontend.onrender.com/">Recruit-Pro</a><br>
+        GitHub: <a href="https://github.com/Ramezzorgui/AI-education-platform">AI-education-platform</a>
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Automatisation CI/CD avec Jenkins</h4>
+
+      <span>February 2025 — May 2025</span>
+
+      <p class="timeline-text">
+        Ecole Supérieur Privée d'Ingénierie et de Technologies<br>
+        Technologies: Jenkins, Docker, SonarQube, Nexus, Prometheus, Grafana, Mockito, JUnit, Maven<br>
+        - Automated application deployment through a CI/CD pipeline using Jenkins.<br>
+        - Performed Maven compilation, unit testing (Mockito, JUnit), and code analysis with SonarQube.<br>
+        - Utilized Docker for containerization, orchestrated with Docker Compose, and published to Docker Hub.<br>
+        - Monitored performance with Prometheus and visualized metrics using Grafana.<br>
+        GitHub: <a href="https://github.com/Ramezzorgui/DEVOPS.git">CI-CD-Jenkins GitHub Repository</a>
+      </p>
+
+    </li>
+
+
+
+    <li class="timeline-item">
+
+  <h4 class="h4 timeline-item-title">Web Development Project – Intelligent Emergency Management System</h4>
+
+  <span>February 2025 — May 2025</span>
+
+  <p class="timeline-text">
+    Private Higher School of Engineering and Technology (ESPRIT)<br>
+    <strong>Technologies:</strong> MERN Stack (MongoDB, Express.js, React.js, Node.js)<br>
+    - Implemented facial recognition authentication for fast and secure user login.<br>
+    - Developed an intelligent triage chatbot using natural language processing (NLP).<br>
+    - Coordinated ambulance dispatch with real-time updates on ambulance location, patient symptoms, and hospital readiness.<br>
+    - Enabled self-transport support, allowing patients to submit medical data in advance for better hospital preparation.<br>
+    - Designed intelligent medical routing to automatically classify emergency levels.<br>
+    - Set up a CI/CD pipeline for automated testing and deployment, ensuring fast and reliable updates.<br>
+    GitHub: <a href="https://github.com/ahmedth20/Twinners_PI.git">Intelligent Emergency Management System</a>
+  </p>
+
+</li>
+
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Projet en développement : Culturium</h4>
+
+      <span>February 2024 — May 2024</span>
+
+      <p class="timeline-text">
+        Ecole Supérieur Privée d'Ingénierie et de Technologies<br>
+        Technologies: JavaFX, MySQL, Symfony, Twig, Bootstrap, Flutterflow, Firebase, UML<br>
+        - Designed and developed desktop, web, and mobile applications for managing products, events, and users.<br>
+        - Collaborated closely with the team to understand functional and technical requirements.<br>
+        - Integrated key features such as data management, custom reporting, and user authentication.<br>
+        GitHub: <a href="https://github.com/TheMaliik/CulturiumWeb">Culturium GitHub Repository</a>
+      </p>
+
+    </li>
+
+  </ol>
+
+</section>
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+
+    <h3 class="h3">Experience</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Engineering internship</h4>
+
+      <span>July 2025 — August</span>
+
+      <p class="timeline-text">
+        Developed an innovative web application for automated presentation generation.<br>
+        - Design and development of a full-stack web application (Angular 17 + Spring Boot 3).<br>
+        - integrating an artificial intelligence API (Gemini API) for automatic content generation.
+        - Implementation of advanced features: WYSIWYG editing, multi-format export (PDF, PPTX, PNG/JPG), and management of customizable templates.<br>
+        - Secure access via JWT authentication and role management.<br>
+        - Containerization with Docker and implementation of an automated CI/CD chain (build, test, and deployment) to ensure quality and rapid delivery.<br>
+        - Collaboration with the team to ensure functional compliance and product quality.<br>
+        Tools: Spring boot, Angular, PostgreSQL, Gemini API, Docker, Jenkins, Nexus, Prometheus, Grafana, SonarQube
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Corporate immersion internship</h4>
+
+      <span>June 2024 — July 2024</span>
+
+      <p class="timeline-text">
+        Private Higher School of Engineering and Technology<br>
+        Development of an international study mobility management platform
+        Technologies: Symfony, MySQL<br>
+        - Creation of a website for managing international student mobility.<br>
+        - Implementation of the application architecture, database, user interfaces, and user interactions (front-end and back-end).<br>
+        - Implementation of features (authentication/CRUD) and API integration.<br>
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Technician Intern - PFE Project</h4>
+
+      <span>June 2024 — August 2024</span>
+
+      <p class="timeline-text">
+        SFM Technology, Tunis, Tunisia<br>
+        Technologies: Apache Hadoop, Apache Spark, Cloudera, Java<br>
+        - In-depth knowledge of the Linux operating system.<br>
+        - Understanding and analysis of business needs.<br>
+        - Preparation of a Big Data architecture.<br>
+        Methodology: SCRUM
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">Remote Frontend Developer Intern</h4>
+
+      <span>March 2024 — April 2024</span>
+
+      <p class="timeline-text">
+        Prodigy InfoTech<br>
+        Developed a modern, responsive user interface with sections for projects, skills, and contact.<br>
+        Technologies: ReactJS
+      </p>
+
+    </li>
+
+    <li class="timeline-item">
+
+  <h4 class="h4 timeline-item-title">Web Development Intern</h4>
+
+  <span>July 2021 — August 2021</span>
+
+  <p class="timeline-text">
+    Tunisie Télécom, Tunis, Tunisia<br>
+    - Developed an interactive web platform using HTML, CSS, and JavaScript.<br>
+    - Designed responsive UI components and ensured cross-browser compatibility.<br>
+    - Gained exposure to professional development workflows and collaboration.<br>
+    - Prepared technical documentation and contributed to team discussions.
+  </p>
+
+</li>
+
+
+  </ol>
+
+</section>
+
+
+
+
+
+<section class="skills">
+  <h3 class="h3 skills-title">My Skills & Technologies</h3>
+  <div class="skills-container">
+    <!-- Langages de Programmation -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Programming Languages</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">💻</span>
+            <span class="skill-name">JavaScript</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">☕</span>
+            <span class="skill-name">Java</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🗄️</span>
+            <span class="skill-name">SQL</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Frameworks et Bibliothèques -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Frameworks & Libraries</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">⚛️</span>
+            <span class="skill-name">React</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🟢</span>
+            <span class="skill-name">Node.js</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🅰️</span>
+            <span class="skill-name">Angular</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🚀</span>
+            <span class="skill-name">Express.js</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Technologies Web -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Web Technologies</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🌐</span>
+            <span class="skill-name">HTML</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🎨</span>
+            <span class="skill-name">CSS</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">💻</span>
+            <span class="skill-name">JavaScript</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Bases de Données -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Databases</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🗃️</span>
+            <span class="skill-name">MySQL</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🍃</span>
+            <span class="skill-name">MongoDB</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🐘</span>
+            <span class="skill-name">PostgreSQL</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Cloud & DevOps -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Cloud & DevOps</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">☁️</span>
+            <span class="skill-name">AWS</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🔵</span>
+            <span class="skill-name">Azure</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🐳</span>
+            <span class="skill-name">Docker</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">⚙️</span>
+            <span class="skill-name">Jenkins</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">☸️</span>
+            <span class="skill-name">Kubernetes</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">📊</span>
+            <span class="skill-name">Prometheus</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">📈</span>
+            <span class="skill-name">Grafana</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🛠️</span>
+            <span class="skill-name">Vagrant</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🔍</span>
+            <span class="skill-name">SonarQube</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">📦</span>
+            <span class="skill-name">Nexus</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">📚</span>
+            <span class="skill-name">DockerHub</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Outils de Développement -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Development Tools</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🔗</span>
+            <span class="skill-name">Git</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🐙</span>
+            <span class="skill-name">GitHub</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Méthodologies -->
+    <div class="skill-category">
+      <h4 class="h4 category-title">Methodologies</h4>
+      <ul class="skills-list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">🔄</span>
+            <span class="skill-name">Agile</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">📋</span>
+            <span class="skill-name">Scrum</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <span class="skill-icon">⚙️</span>
+            <span class="skill-name">DevOps</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.skills {
+  padding: 2rem;
+  background: linear-gradient(135deg, #000000 0%, #505358 100%);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.h3.skills-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.h4.category-title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #6200ea;
+  padding-bottom: 0.5rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-item {
+  transition: transform 0.3s ease;
+}
+
+.skills-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.skill-card:hover {
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+</style>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+          
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://willowy-chebakia-07cb0b.netlify.app/home/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/GeniusDeck.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GeniusDeck</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://recruitpro-frontend.onrender.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/RECRUITPRO.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RecruitPro</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://civicimpact.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CIVICC.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CIVICIMPACT</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            
+
+         
+
+       
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CERTIFICATIONS
+      -->
+
+<article class="Certifications" data-page="certifications">
+  <header>
+    <h2 class="h2 article-title">Certifications</h2>
+  </header>
+  <section class="blog-posts">
+    <ul class="blog-posts-list">
+      <li class="blog-post-item">
+        <a href="https://www.credly.com/badges/fa278c34-0f1b-4a7d-8a73-318baed134ba/linked_in?t=t5iuzf">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/AWS.png" alt="AWS Academy Graduate - Cloud Foundations - Training Badge" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">AWS</p>
+              <span class="dot"></span>
+              <time datetime="2025-10-21">OCT 2025</time>
+            </div>
+            <h3 class="h3 blog-item-title">AWS Academy Graduate - Cloud Foundations - Training Badge</h3>
+            <p class="blog-text"> Completes foundational training in AWS cloud services, covering core concepts, services, and best practices for cloud computing.</p>
+          </div>
+        </a>
+      </li>
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/HashGraph.png" alt="Attendance Hashgraph Developer" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">HASHGRAPH</p>
+              <span class="dot"></span>
+              <time datetime="2025-10-21">OCT 2025</time>
+            </div>
+            <h3 class="h3 blog-item-title">Attendance Hashgraph Developer</h3>
+            <p class="blog-text"> Attends developer training on Hashgraph technology, focusing on distributed ledger and consensus mechanisms provided by The Hashgraph Association.</p>
+          </div>
+        </a>
+      </li>
+      <li class="blog-post-item">
+        <a href="https://www.freecodecamp.org/certification/fcc-d3029dcf-97ff-41c6-9933-433bf2c6600c/machine-learning-with-python-v7">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/ML with Python.png" alt="Graph Developer - Associate" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">FreeCodeCamp</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Sep 20, 2025</time>
+            </div>
+            <h3 class="h3 blog-item-title">Graph Developer - Associate</h3>
+            <p class="blog-text"> Demonstrates proficiency in building and managing graph-based applications using Apollo, focusing on efficient data querying and schema design. </p>
+          </div>
+        </a>
+      </li>
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/Docker.png" alt="Docker Training Course for the absolute beginner" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Docker</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Aug 11, 2025</time>
+            </div>
+            <h3 class="h3 blog-item-title">KodeKloud</h3>
+            <p class="blog-text"> Covers essential Docker skills, including containerization, image management, Docker Compose, and deploying applications in Docker environments. </p>
+          </div>
+        </a>
+      </li>
+
+      
+    </ul>
+  </section>
+</article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6381.123431116939!2d10.180694416743219!3d36.90083196802466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb763f2120bb%3A0xc3e79593db50c2e8!2sLa%20petite%20Ariana%2C%20Cebalat%20Ben%20Ammar!5e0!3m2!1sfr!2stn!4v1756923209493!5m2!1sfr!2stn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
