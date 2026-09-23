@@ -1,0 +1,96 @@
+/* OVERHAUL DESIGN - ADVANCED PORTFOLIO */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+  --neon-blue: #00f3ff;
+  --neon-purple: #bc13fe;
+  --glass-bg: rgba(15, 15, 20, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --shadow-neon: 0 4px 30px rgba(0, 0, 0, 0.5);
+  --ff-poppins: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #0a0a0e !important;
+  color: #e0e0e0;
+  font-family: var(--ff-poppins);
+}
+
+/* Glassmorphism Ultra Premium */
+.sidebar, article, .service-item, .content-card, .timeline-item, .skill-card {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: var(--shadow-neon) !important;
+  border-radius: 24px !important;
+  transition: all 0.4s ease !important;
+}
+
+/* Hover glow effects */
+.sidebar:hover, .service-item:hover, .content-card:hover, .skill-card:hover {
+  border-color: rgba(0, 243, 255, 0.3) !important;
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.1), 0 0 40px rgba(188, 19, 254, 0.1) !important;
+  transform: translateY(-5px);
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5 {
+  font-family: 'Outfit', sans-serif !important;
+  letter-spacing: 0.5px;
+}
+
+.name {
+  font-weight: 800 !important;
+  background: linear-gradient(to right, var(--neon-blue), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px !important;
+}
+
+.article-title::after {
+  background: linear-gradient(to right, var(--neon-blue), var(--neon-purple)) !important;
+  height: 4px !important;
+  border-radius: 2px;
+  width: 50px !important;
+}
+
+.icon-box {
+  background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple)) !important;
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.4) !important;
+  border: none !important;
+}
+.icon-box ion-icon {
+  color: white !important;
+}
+
+/* Custom Scrollbar for better UI */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0e;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--neon-blue), var(--neon-purple));
+  border-radius: 4px;
+}
+
+/* Fix text color for skills to be white */
+.skill-card, .skill-name {
+  color: #ffffff !important;
+}
+
+/* Navbar Float */
+.navbar {
+  background: rgba(15, 15, 20, 0.8) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-bottom: none !important;
+  border-radius: 20px 20px 0 0 !important;
+}
+.navbar-link:hover, .navbar-link.active {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 10px var(--neon-blue);
+}
